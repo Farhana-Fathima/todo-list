@@ -8,17 +8,6 @@ import io.github.cdimascio.dotenv.Dotenv;
 
 public class TodoDAO {
 	
-//public static void main(String[] args) {
-//	Dotenv dotenv = Dotenv.load();
-//
-//    String url = dotenv.get("DB_URL");
-//    String user = dotenv.get("DB_USER");
-//    String password = dotenv.get("DB_PASSWORD");
-//
-//    System.out.println("DB_URL: " + url);
-//    System.out.println("DB_USER: " + user);
-//    System.out.println("DB_PASSWORD: " + password);
-//}
 
     public void create(Todo todo) throws SQLException {
     	String query = "INSERT INTO todos (title, completed) VALUES (?, ?)";

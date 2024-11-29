@@ -37,40 +37,4 @@ public class Database {
 		    
 } 
 		
-		// creating database
-//		String sql = "create database todo";
-//		
-//		stmt.executeUpdate(sql);
-//		
-//		System.out.println("Database created successfully");
 		
-		// table creation
-//		String sql = "create table todolist"
-//		        + "(id Integer not null PRIMARY KEY AUTO_INCREMENT,"
-//		        +"title varchar(15) not null,"
-//		        + "completed BOOLEAN DEFAULT FALSE)";
-//		
-//		stmt.executeUpdate(sql);
-//		System.out.println("Table created successfully");
-		
-		//updation of a record
-//		String sql = "update camlist set cam_salary = '48000' where cam_id = '1' ";
-//		
-//		stm.executeUpdate(sql);
-//		
-//		System.out.println("one row affected");
-		
-//		deletion
-//		String sql = "delete from camlist where cam_id = '3' ";
-//		
-//      stm.executeUpdate(sql);
-//        
-//      System.out.println("deleted");
-		
-		
-//		con.close();
-		
-
-	
-
-//}
